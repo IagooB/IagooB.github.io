@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <style>
+    :root {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.6;
+      color: #1f2933;
+      background-color: #f5f7fa;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+    }
+
+    .page-wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+      border-bottom: 1px solid #d8e2ec;
+      padding-bottom: 1.5rem;
+    }
+
+    .site-title {
+      font-size: 1.8rem;
+      font-weight: 700;
+      margin: 0;
+      color: #102a43;
+    }
+
+    .site-subtitle {
+      margin: 0;
+      font-size: 0.95rem;
+      color: #52606d;
+    }
+
+    nav {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 0.9rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid #d8e2ec;
+      color: #243b53;
+      background: #ffffff;
+      transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+    }
+
+    nav a:hover {
+      background: #f0f4f8;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 12px rgba(15, 23, 42, 0.06);
+    }
+
+    main {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 1.75rem 1.5rem;
+      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+    }
+
+    h1, h2, h3 {
+      color: #102a43;
+      margin-top: 0;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 0.75rem;
+    }
+
+    h2 {
+      font-size: 1.3rem;
+      margin-top: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.25rem;
+    }
+
+    p {
+      margin: 0.25rem 0 0.75rem;
+      color: #334e68;
+      font-size: 0.98rem;
+    }
+
+    .tagline {
+      font-size: 1rem;
+      color: #52606d;
+      margin-bottom: 1.5rem;
+    }
+
+    .project-card {
+      border-radius: 0.9rem;
+      border: 1px solid #d8e2ec;
+      padding: 1rem 1rem 0.9rem;
+      margin-bottom: 1rem;
+      background: #f9fbff;
+    }
+
+    .project-meta {
+      font-size: 0.82rem;
+      color: #7b8794;
+      margin-bottom: 0.25rem;
+    }
+
+    .project-links {
+      margin-top: 0.4rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .btn-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+      font-size: 0.85rem;
+      text-decoration: none;
+      padding: 0.25rem 0.7rem;
+      border-radius: 999px;
+      border: 1px solid #9fb3c8;
+      color: #1f2933;
+      background: #ffffff;
+    }
+
+    .btn-link:hover {
+      background: #e3efff;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.2rem;
+      color: #52606d;
+      font-size: 0.96rem;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.8rem;
+      color: #9fb3c8;
+      text-align: center;
+    }
+
+    a {
+      color: #1d4ed8;
+    }
+
+    a:hover {
+      color: #1e40af;
+    }
+
+    @media (max-width: 600px) {
+      .page-wrapper {
+        padding: 1.5rem 1rem 2rem;
+      }
+
+      main {
+        padding: 1.3rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header>
+      <div>
+        <h1 class="site-title">{{ site.title }}</h1>
+        <p class="site-subtitle">{{ site.description }}</p>
+      </div>
+      <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/projects' | relative_url }}">Projects</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      &copy; {{ site.author }} – {{ "now" | date: "%Y" }} · Built with Jekyll & GitHub Pages
+    </footer>
+  </div>
+</body>
+</html>
