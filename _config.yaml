@@ -1,0 +1,10 @@
+title: "Iago B – Portfolio"
+description: "Data science and machine learning projects, with a focus on NLP and political fake news detection."
+url: "https://IagooB.github.io" 
+baseurl: ""                        
+                                  
+author: "Iago B"
+
+# Basic configuration
+markdown: kramdown
+theme: minima    # GitHub Pages has this theme built-in, but we will use our own layout
