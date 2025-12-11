@@ -3,49 +3,34 @@ layout: default
 title: "Home"
 ---
 
-<h1>Hello, I’m Iago 👋</h1>
+<h1>Hello, I’m Iago</h1>
 
 <p class="tagline">
-I’m a data science and machine learning enthusiast with a strong focus on Natural Language Processing (NLP)
-and political fake news detection.
+I’m a Machine Learning researcher focused on AI privacy, federated learning, and the analysis of political and social information.
 </p>
 
-## What I do
+## What I work on
 
-- Build machine learning models with Python.
-- Work with NLP techniques to understand and classify text.
-- Experiment with real-world data related to political news and elections.
+- Designing and evaluating privacy attacks and defenses in Federated Learning systems.
+- Building machine learning and NLP models (Transformers, BERT, classical ML) for tasks such as political news and disinformation detection.
+- Working with real-world, messy datasets from politics, elections, social media, and public policy.
+- Developing data pipelines with web scraping, APIs, and databases to turn raw data into usable datasets and prototypes.
 
-## Featured project
+## Currently
 
-<div class="project-card">
+- Researcher at the Internet Interdisciplinary Institute (IN3), studying the privacy and security of Federated Learning and AI systems.
+- Combining Applied Data Science and Political Science to address questions around disinformation, electoral behavior, and public communication.
 
-### Fake News Detection – Political Context (Spain)
+## Interests
 
-<div class="project-meta">
-NLP · Machine Learning · BERT · FastAPI · Web Scraping
-</div>
-
-I developed an automated system to detect fake news in the political domain, with a special focus on 
-electoral processes in Spain. The project uses Natural Language Processing and machine learning to classify 
-news articles as **true** or **fake**, and exposes the model through a web API.
-
-**Key points:**
-
-- Collects and preprocesses political news from multiple sources.
-- Trains models based on BERT and traditional classifiers (Random Forest, SVM).
-- Includes web scraping pipelines for both true and fake news.
-- Offers a web interface and API for real-time classification.
-
-<div class="project-links">
-  <a class="btn-link" href="https://github.com/IagooB/detector-de-fake-news-politicas" target="_blank" rel="noopener">
-    View on GitHub
-  </a>
-</div>
-
-</div>
+- AI privacy, security, and trustworthy ML.
+- Natural Language Processing and large language models.
+- Computational social science and political data analysis.
+- Turning research ideas into working code and reproducible experiments.
 
 ## Contact
 
 - GitHub: [@IagooB](https://github.com/IagooB)
-- Email: your.email@example.com
+- LinkedIn: [Iago Buceta](https://www.linkedin.com/in/iago-buceta)
+- Email: [iagobuceta55@gmail.com](mailto:iagobuceta55@gmail.com)
+- Kaggle: [iagobs](https://www.kaggle.com/iagobs)
