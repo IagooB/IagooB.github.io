@@ -6,11 +6,11 @@ permalink: /about/
 
 ## About me
 
-I’m Iago, a Machine Learning researcher focused on AI privacy, federated learning, and the analysis of political and social information. :contentReference[oaicite:1]{index=1}  
+I’m Iago, a Machine Learning researcher focused on AI privacy, federated learning, and the analysis of political and social information. 
 
-My background combines Applied Data Science and Political Science, which allows me to bridge advanced technical methods with real-world socio-political problems such as disinformation, electoral behavior, and public policy analysis. :contentReference[oaicite:2]{index=2}  
+My background combines Applied Data Science and Political Science, which allows me to bridge advanced technical methods with real-world socio-political problems such as disinformation, electoral behavior, and public policy analysis. 
 
-Currently, I work as a researcher at the Internet Interdisciplinary Institute (IN3), where I study the privacy and security of Federated Learning systems. My work involves designing white-box and grey-box inference attacks, evaluating privacy risks, and exploring defense mechanisms for more secure AI systems. :contentReference[oaicite:3]{index=3}  
+Currently, I work as a researcher at the Internet Interdisciplinary Institute (IN3), where I study the privacy and security of Federated Learning systems. My work involves designing white-box and grey-box inference attacks, evaluating privacy risks, and exploring defense mechanisms for more secure AI systems.
 
 I enjoy:
 
@@ -22,10 +22,10 @@ I enjoy:
 
 ## Selected work & interests
 
-- **ML Privacy & Federated Learning:** Research on attack strategies against FL networks (white-box and grey-box inference attacks) and the evaluation of privacy-enhancing techniques. :contentReference[oaicite:4]{index=4}  
-- **Real-time political disinformation detection:** Development of a BERT-based model to classify Spanish political news, combining transformers with classical ML models and an end-to-end data pipeline built via web scraping and SQL. :contentReference[oaicite:5]{index=5}  
-- **Computational social science:** Quantitative analyses of electoral and environmental data, sentiment analysis on social media, and social network analysis of political actors. :contentReference[oaicite:6]{index=6}  
-
+- **ML Privacy & Federated Learning:** Research on attack strategies against FL networks (white-box and grey-box inference attacks) and the evaluation of privacy-enhancing techniques. 
+- **Real-time political disinformation detection:** Development of a BERT-based model to classify Spanish political news, combining transformers with classical ML models and an end-to-end data pipeline built via web scraping and SQL. 
+- **Computational social science:** Quantitative analyses of electoral and environmental data, sentiment analysis on social media, and social network analysis of political actors.
+- 
 You can find some of these ideas reflected in the repositories pinned on this profile.
 
 ## Skills
